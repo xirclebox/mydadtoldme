@@ -1,0 +1,46 @@
+:root {
+    --background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    --white: #fff;
+    
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    background: rgba(30, 2, 83, 1);
+    background-image: var(--background-image);
+    color: var(--white);
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    line-height: 1.2;
+    justify-content: center;
+}
+
+main {
+    .main__heading {
+        font-size: 80px;
+    }
+
+    p {
+        font-size: 18px;
+        letter-spacing: 0.07em;
+        line-height: 1.5;
+    }
+}
+
+.main__container, .footer__container {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+}
