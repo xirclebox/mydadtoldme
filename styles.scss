@@ -1,5 +1,5 @@
 :root {
-    --background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    --background: #29323c;
     --white: #fff;
     
 }
@@ -17,8 +17,7 @@ html {
 
 body {
     display: flex;
-    background: rgba(30, 2, 83, 1);
-    background-image: var(--background-image);
+    background: var(--background);
     color: var(--white);
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
