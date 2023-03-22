@@ -1,5 +1,5 @@
 :root {
-  --background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  --background: #29323c;
   --white: #fff; }
 
 html {
@@ -13,13 +13,14 @@ html {
 
 body {
   display: flex;
-  background: #1e0253;
-  background-image: var(--background-image);
+  background: var(--background);
   color: var(--white);
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   line-height: 1.2;
+  margin: 0;
+  padding: 0;
   justify-content: center; }
 
 main .main__heading {
@@ -31,5 +32,5 @@ main p {
 
 .main__container, .footer__container {
   margin: auto;
-  max-width: 800px;
+  max-width: 760px;
   width: 100%; }
