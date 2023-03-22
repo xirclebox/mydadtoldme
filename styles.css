@@ -24,13 +24,23 @@ body {
   justify-content: center; }
 
 main .main__heading {
-  font-size: 80px; }
+  font-size: 40px;
+  line-height: 1; }
 main p {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.07em;
   line-height: 1.5; }
 
 .main__container, .footer__container {
   margin: auto;
   max-width: 760px;
+  padding: 16px;
   width: 100%; }
+
+@media (min-width: 769px) {
+  main .main__heading {
+    font-size: 80px; }
+  main p {
+    font-size: 18px;
+    letter-spacing: 0.07em;
+    line-height: 1.5; } }
